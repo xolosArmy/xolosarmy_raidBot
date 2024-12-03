@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, filte
 from collections import defaultdict
 
 # Bot token from BotFather
-bot_token = 'BOT_TOKEN'
+bot_token = 'TG_BOT_TOKEN'
 bot = Bot(token=bot_token)
 app = ApplicationBuilder().token(bot_token).build()
 
